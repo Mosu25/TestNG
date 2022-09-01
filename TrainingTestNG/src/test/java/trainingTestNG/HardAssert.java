@@ -14,8 +14,7 @@ public class HardAssert {
 	public void Google() {
 		
 		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		
+		driver.manage().window().maximize();		
 		driver.get("https://www.google.co.in/");
 		driver.findElement(By.name("q")).sendKeys("orangehrm",Keys.ENTER);
 		

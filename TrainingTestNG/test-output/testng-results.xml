@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-29T20:35:21 IST" name="Default suite" finished-at="2022-08-29T20:37:07 IST" duration-ms="105561">
+  <suite started-at="2022-09-01T16:22:35 IST" name="Default suite" finished-at="2022-09-01T16:22:35 IST" duration-ms="303">
     <groups>
     </groups>
-    <test started-at="2022-08-29T20:35:21 IST" name="Default test" finished-at="2022-08-29T20:37:07 IST" duration-ms="105561">
-      <class name="trainingTestNG.TestSoftAssert">
-        <test-method signature="facebook()[pri:0, instance:trainingTestNG.TestSoftAssert@4567f35d]" started-at="2022-08-29T20:35:21 IST" name="facebook" finished-at="2022-08-29T20:37:07 IST" duration-ms="105452" status="PASS">
+    <test started-at="2022-09-01T16:22:35 IST" name="Default test" finished-at="2022-09-01T16:22:35 IST" duration-ms="303">
+      <class name="trainingTestNG.DemoAnnotation1">
+        <test-method is-config="true" signature="Browser()[pri:0, instance:trainingTestNG.DemoAnnotation1@478190fc]" started-at="2022-09-01T16:22:35 IST" name="Browser" finished-at="2022-09-01T16:22:35 IST" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- facebook -->
-      </class> <!-- trainingTestNG.TestSoftAssert -->
+        </test-method> <!-- Browser -->
+        <test-method signature="testRegistration()[pri:1, instance:trainingTestNG.DemoAnnotation1@478190fc]" started-at="2022-09-01T16:22:35 IST" name="testRegistration" finished-at="2022-09-01T16:22:35 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="TestLogin()[pri:2, instance:trainingTestNG.DemoAnnotation1@478190fc]" started-at="2022-09-01T16:22:35 IST" name="TestLogin" finished-at="2022-09-01T16:22:35 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method signature="TestHomepage()[pri:3, instance:trainingTestNG.DemoAnnotation1@478190fc]" started-at="2022-09-01T16:22:35 IST" name="TestHomepage" finished-at="2022-09-01T16:22:35 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomepage -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:trainingTestNG.DemoAnnotation1@478190fc]" started-at="2022-09-01T16:22:35 IST" name="TearDown" finished-at="2022-09-01T16:22:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- trainingTestNG.DemoAnnotation1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
